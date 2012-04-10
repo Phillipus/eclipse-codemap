@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.dadabeatnik.codemap.ui.editors.CodeMapEditor"
+            contributorClass="com.dadabeatnik.codemap.ui.editors.CodeMapEditorActionBarContributor"
+            extensions="codemap"
+            icon="icons/view.gif"
+            id="com.dadabeatnik.codemap.editors.codemapeditor"
+            name="Code Map Editor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="com.dadabeatnik.codemap"
+            name="Dada Beatnik">
+      </category>
+      <wizard
+            category="com.dadabeatnik.codemap"
+            class="com.dadabeatnik.codemap.ui.wizards.NewCodeMapWizard"
+            icon="icons/view.gif"
+            id="com.dadabeatnik.codemap.ui.wizards.NewCodeMapWizard"
+            name="CodeMap File">
+      </wizard>
+   </extension>
+
+</plugin>

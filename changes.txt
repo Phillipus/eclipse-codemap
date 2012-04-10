@@ -1,0 +1,9 @@
+Version 1.1.0 27th May 2009
+----------------------------
+Added Entries Table and model for multi-entry
+
+
+Version 1.0.1 5th March 2009
+----------------------------
+Add Title & Description fields
+UTF-8 encoding for new file and save
